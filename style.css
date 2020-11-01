@@ -70,7 +70,7 @@ i {
 .value {
   font-size: 18px;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .value-icon {
@@ -189,7 +189,7 @@ i {
     border-radius: 12px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+    box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25) !important;
   }
     #mailchimp input.email { background: #fff }
     #mailchimp input.name { background: #fff}
@@ -203,7 +203,7 @@ i {
        border-radius: 20px;
       -moz-border-radius: 20px;
       -webkit-border-radius: 20px;
-      box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+      box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25) !important;
       transition: 0.3s;
 
     }
@@ -244,7 +244,7 @@ i {
   }
 
   .section {
-    margin-top: 6rem !important;
+    margin-top: 5rem !important;
     margin-bottom: 7rem !important;
   }
 
@@ -262,7 +262,7 @@ i {
 
   .main-img {
     width: 70%;
-    margin: 4rem auto;
+    margin: 4rem auto !important;
   }
 
   .cycle {
@@ -274,7 +274,7 @@ i {
   }
 
   .value-icon {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   /* Contact Form */
