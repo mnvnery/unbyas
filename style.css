@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Akkurat Bold";
-  src: url("AkkStdBd.otf") format("opentype");
+  src: url("fonts/AkkStdBd.otf") format("opentype");
 }
 @font-face {
   font-family: "Akkurat Light";
-  src: url("AkkStdLg.otf") format("opentype");
+  src: url("fonts/AkkStdLg.otf") format("opentype");
 }
 @font-face {
   font-family: "Akkurat Bold Italic";
-  src: url("AkkStdBdIt.otf") format("opentype");
+  src: url("fonts/AkkStdBdIt.otf") format("opentype");
 }
 
 
