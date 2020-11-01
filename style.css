@@ -84,6 +84,7 @@ i {
   background-color: rgba(248 , 250, 253,  1);
   top: 0;
   width: 100vw;
+  max-width: 1000px;
 }
 .header-title {
   margin: 2rem;
