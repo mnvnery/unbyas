@@ -49,7 +49,7 @@ h3 {
 
 h4 {
   font-family: "Akkurat Bold Italic";
-  font-size: 18px;
+  font-size: 22px;
   color:rgba(32, 61, 88, 0.85);
 }
 
@@ -79,9 +79,9 @@ i {
 
 
 /* Layout Elements */
+
 #header {
   background-color: rgba(248 , 250, 253,  1);
-  position: fixed;
   top: 0;
   width: 100vw;
 }
@@ -94,7 +94,7 @@ i {
   margin: 10rem;
   background-color: white;
   border-radius: 14px;
-  padding: 4rem;
+  padding: 2rem;
   box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
 }
 
@@ -102,6 +102,7 @@ i {
   display: flex;
   margin: 3rem;
   justify-content: space-around;
+  align-items: center;
 }
 
 .section {
@@ -111,30 +112,52 @@ i {
 
 .value-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 4rem;
 }
+
+.value-detail {
+  min-width: 20%;
+}
+
+.footer {
+  background: #A3ADFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: white;
+}
+
 
 /* Images */
 
 .main-img {
   width: 45vw;
   margin: 0 6rem;
+  max-width: 550px;
 }
 
 .cycle {
   width: 300px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .cycle {
-    display: none; 
-  }
-
-  .flex-grid {
-    display: block;
-    margin: 0;
-  }
 }
 
 .form-img {
@@ -180,6 +203,14 @@ i {
   margin-top: 1rem;
 }
 
+.signup-button:hover {
+  transform: scale(1.05);
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
 /* Mailchimp */
 
 #mailchimp {
@@ -187,6 +218,7 @@ i {
   color: #3D6392;
   padding: 20px 15px;
   margin-top: 6rem;
+  text-align: center;
 }
 
 #mailchimp input {
@@ -220,12 +252,12 @@ i {
       transition: 0.3s;
 
     }
-      #mailchimp input[type="submit"]:hover { box-shadow: 0px 5px 20px rgba(101, 108, 162, 0.45); }
+      #mailchimp input[type="submit"]:hover { box-shadow: 0px 5px 20px rgba(101, 108, 162, 0.45); transform: scale(1.05);}
 
 
 /* Mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   /* Layout */
 
@@ -244,7 +276,7 @@ i {
 
   #quote-section {
     margin: 3rem;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
   }
 
   #header{
@@ -301,3 +333,31 @@ i {
 
 }
 
+/* Tablet View*/
+
+@media only screen and (max-width: 1000px) {
+  .cycle {
+    display: none; 
+  }
+
+  .flex-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .cta {
+    text-align: center; 
+  }
+
+  .signup-button {
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
