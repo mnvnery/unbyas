@@ -214,14 +214,16 @@ i {
   .info-card {
     margin: 1.5rem auto;
   }
+
   #quote-section {
     margin: 3rem;
   }
 
   .main-img {
     width: 70%;
-    margin: 2rem auto;
+    margin: 4rem auto;
   }
+
   .cycle {
     width: 80%;
   }
@@ -246,8 +248,10 @@ i {
     margin: 0;
   }
 
-  .top-section {
-    margin-top: 3rem !important;
+
+  .section {
+    margin-top: 6rem !important;
+    margin-bottom: 7rem !important;
   }
 }
 
