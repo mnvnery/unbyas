@@ -70,6 +70,11 @@ i {
 .value {
   font-size: 18px;
   margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.value-icon {
+  font-size: 45px;
 }
 
 
@@ -102,6 +107,12 @@ i {
 .section {
   margin-top: 7rem !important;
   margin-bottom: 10rem !important;
+}
+
+.value-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
 }
 
 /* Images */
@@ -190,6 +201,8 @@ i {
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+    -moz-box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+    -webkit-box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
   }
     #mailchimp input.email { background: #fff }
     #mailchimp input.name { background: #fff}
@@ -203,7 +216,7 @@ i {
        border-radius: 20px;
       -moz-border-radius: 20px;
       -webkit-border-radius: 20px;
-      box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+      box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25) !important;
       transition: 0.3s;
 
     }
@@ -213,6 +226,9 @@ i {
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
+
+  /* Layout */
+
   body, html {
     overflow-x: hidden;
   }
@@ -225,25 +241,56 @@ i {
   .info-card {
     margin: 1.5rem auto;
   }
+
   #quote-section {
     margin: 3rem;
-  }
-
-  .main-img {
-    width: 70%;
-    margin: 2rem auto;
-  }
-  .cycle {
-    width: 80%;
+    margin-bottom: 7rem;
   }
 
   #header{
     position: static;
   }
 
+  .flex-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .section {
+    margin-top: 5rem !important;
+    margin-bottom: 7rem !important;
+  }
+
+  #value-section {
+    margin: 4rem !important;
+  }
+
+
+  .value-flex {
+    display: block;
+    margin-top: 1rem !important;
+  }
+
+  /* Images */
+
+  .main-img {
+    width: 70%;
+    margin: 4rem auto !important;
+  }
+
+  .cycle {
+    width: 80%;
+  }
+
   .form-img {
     width: 90%;
   }
+
+  .value-icon {
+    font-size: 45px;
+  }
+
+  /* Contact Form */
 
   #mailchimp input[type="submit"] {
     width: 40%;
@@ -252,13 +299,5 @@ i {
     width: 90%;
   }
 
-  .flex-grid {
-    display: block;
-    margin: 0;
-  }
-
-  .top-section {
-    margin-top: 3rem !important;
-  }
 }
 
