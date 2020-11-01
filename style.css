@@ -70,6 +70,11 @@ i {
 .value {
   font-size: 18px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.value-icon {
+  font-size: 45px;
 }
 
 
@@ -102,6 +107,12 @@ i {
 .section {
   margin-top: 7rem !important;
   margin-bottom: 10rem !important;
+}
+
+.value-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
 }
 
 /* Images */
@@ -202,6 +213,9 @@ i {
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
+
+  /* Layout */
+
   body, html {
     overflow-x: hidden;
   }
@@ -217,7 +231,34 @@ i {
 
   #quote-section {
     margin: 3rem;
+    margin-bottom: 7rem;
   }
+
+  #header{
+    position: static;
+  }
+
+  .flex-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .section {
+    margin-top: 6rem !important;
+    margin-bottom: 7rem !important;
+  }
+
+  #value-section {
+    margin: 4rem !important;
+  }
+
+
+  .value-flex {
+    display: block;
+    margin-top: 1rem !important;
+  }
+
+  /* Images */
 
   .main-img {
     width: 70%;
@@ -228,13 +269,15 @@ i {
     width: 80%;
   }
 
-  #header{
-    position: static;
-  }
-
   .form-img {
     width: 90%;
   }
+
+  .value-icon {
+    font-size: 35px;
+  }
+
+  /* Contact Form */
 
   #mailchimp input[type="submit"] {
     width: 40%;
@@ -243,15 +286,5 @@ i {
     width: 90%;
   }
 
-  .flex-grid {
-    display: block;
-    margin: 0;
-  }
-
-
-  .section {
-    margin-top: 6rem !important;
-    margin-bottom: 7rem !important;
-  }
 }
 
